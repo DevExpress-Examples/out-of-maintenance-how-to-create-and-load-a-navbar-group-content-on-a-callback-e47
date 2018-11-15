@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/WebSite/Default.aspx) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx](./VB/WebSite/Default.aspx))
+* [UserControl.ascx](./CS/WebSite/UserControl.ascx) (VB: [UserControl.ascx](./VB/WebSite/UserControl.ascx))
+* [UserControl.ascx.cs](./CS/WebSite/UserControl.ascx.cs) (VB: [UserControl.ascx](./VB/WebSite/UserControl.ascx))
+<!-- default file list end -->
 # How to create and load a NavBar group content on a callback
 
 
