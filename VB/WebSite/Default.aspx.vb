@@ -6,11 +6,9 @@ Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
 Imports System.ComponentModel
-Imports DevExpress.Web.ASPxDataView
+Imports DevExpress.Web
 Imports System.Text
-Imports DevExpress.Web.ASPxCallback
 Imports System.Xml
-Imports DevExpress.Web.ASPxNavBar
 
 
 Partial Public Class ASPxperience_LoadOnCallback
@@ -34,7 +32,7 @@ Partial Public Class ASPxperience_LoadOnCallback
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 		LoadExpandedGroups()
 	End Sub
-	Protected Sub ASPxNavBar1_ExpandedChanged(ByVal source As Object, ByVal e As DevExpress.Web.ASPxNavBar.NavBarGroupEventArgs)
+	Protected Sub ASPxNavBar1_ExpandedChanged(ByVal source As Object, ByVal e As DevExpress.Web.NavBarGroupEventArgs)
 		LoadGroupContent(e.Group)
 	End Sub
 End Class
