@@ -1,10 +1,10 @@
 <%-- BeginRegion Page setup --%>
 <%@ Page Language="vb" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="ASPxperience_LoadOnCallback" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.1" Namespace="DevExpress.Web"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web"
 	TagPrefix="dxnb" %>
 
-<%@ Register Assembly="DevExpress.Web.v15.1" Namespace="DevExpress.Web"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web"
 	TagPrefix="dxe" %>
 
 
