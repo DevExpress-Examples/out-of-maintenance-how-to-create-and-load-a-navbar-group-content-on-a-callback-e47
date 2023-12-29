@@ -1,7 +1,3 @@
-<!-- default badges list -->
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E47)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -11,9 +7,6 @@
 * [UserControl.ascx.cs](./CS/WebSite/UserControl.ascx.cs) (VB: [UserControl.ascx.vb](./VB/WebSite/UserControl.ascx.vb))
 <!-- default file list end -->
 # How to create and load a NavBar group content on a callback
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e47/)**
-<!-- run online end -->
 
 
 <p>This sample demonstrates how to create and load a NavBar group content on a callback. This allows you to reduce Page_Load time on the server, because content hierarchy won't be created for collapsed groups. However, this approach implies some restrictions. For example, input values for a dynamically created group content will be unavailable on postbacks.</p>
